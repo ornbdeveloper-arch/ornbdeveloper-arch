@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Audiowide&display=swap" rel="stylesheet">
+    
     <style>
         * {
             margin: 0;
@@ -38,7 +39,6 @@
             background-attachment: fixed;
         }
 
-        /* Efeito de estrelas no fundo */
         body::before {
             content: '';
             position: fixed;
@@ -72,7 +72,6 @@
             padding: 40px 20px;
         }
 
-        /* HEADER COM CRAWL */
         .header {
             text-align: center;
             margin-bottom: 80px;
@@ -115,6 +114,7 @@
             animation: crawl 15s infinite linear;
             transform-style: preserve-3d;
             margin: 40px 0;
+            overflow: hidden;
         }
 
         .crawl::before {
@@ -126,6 +126,10 @@
             background: linear-gradient(to bottom, rgba(10, 14, 39, 1), transparent);
             bottom: 0;
             z-index: 2;
+        }
+
+        .crawl p {
+            line-height: 2;
         }
 
         @keyframes crawl {
@@ -145,7 +149,6 @@
             }
         }
 
-        /* MAIN CONTENT */
         .main-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -200,6 +203,7 @@
             letter-spacing: 2px;
             text-align: center;
             animation: jediFlicker 3s infinite;
+            width: 100%;
         }
 
         .sith-card::before {
@@ -215,6 +219,7 @@
             letter-spacing: 2px;
             text-align: center;
             animation: sithGlow 3s infinite;
+            width: 100%;
         }
 
         @keyframes jediFlicker {
@@ -246,7 +251,6 @@
             text-shadow: 0 0 10px var(--light-gold);
         }
 
-        /* HABILIDADES */
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -296,7 +300,26 @@
             100% { left: 100%; }
         }
 
-        /* CONTATO */
+        .skills-list {
+            margin-top: 30px;
+            font-size: 0.9rem;
+        }
+
+        .skills-list strong {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .skills-list ul {
+            text-align: left;
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
+        .skills-list li {
+            margin-bottom: 8px;
+        }
+
         .contact-section {
             background: linear-gradient(135deg, rgba(157, 0, 255, 0.1), rgba(0, 240, 255, 0.05));
             border: 2px solid var(--neon-purple);
@@ -326,6 +349,7 @@
             background: rgba(157, 0, 255, 0.1);
             transition: all 0.3s ease;
             cursor: pointer;
+            user-select: none;
         }
 
         .contact-method:hover {
@@ -341,7 +365,6 @@
             letter-spacing: 1px;
         }
 
-        /* STATS */
         .stats-section {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -390,7 +413,38 @@
             letter-spacing: 1px;
         }
 
-        /* RESPONSIVO */
+        .footer {
+            text-align: center;
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 2px solid var(--neon-cyan);
+            color: var(--neon-cyan);
+            font-size: 0.9rem;
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .force-line {
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--neon-cyan), transparent);
+            margin: 40px 0;
+        }
+
+        .saber {
+            display: inline-block;
+            margin: 0 10px;
+            animation: saberFlicker 0.15s infinite;
+        }
+
+        @keyframes saberFlicker {
+            0%, 100% { text-shadow: 0 0 10px currentColor; }
+            50% { text-shadow: 0 0 20px currentColor, 0 0 30px currentColor; }
+        }
+
         @media (max-width: 768px) {
             .main-content {
                 grid-template-columns: 1fr;
@@ -417,41 +471,10 @@
             .contact-method {
                 display: block;
                 margin: 10px 0;
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
             }
-        }
-
-        /* FOOTER */
-        .footer {
-            text-align: center;
-            margin-top: 80px;
-            padding-top: 40px;
-            border-top: 2px solid var(--neon-cyan);
-            color: var(--neon-cyan);
-            font-size: 0.9rem;
-            animation: fadeIn 1.5s ease-out;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-
-        .force-line {
-            height: 2px;
-            background: linear-gradient(90deg, transparent, var(--neon-cyan), transparent);
-            margin: 40px 0;
-        }
-
-        /* HOVER EFFECTS */
-        .saber {
-            display: inline-block;
-            margin: 0 10px;
-            animation: saberFlicker 0.15s infinite;
-        }
-
-        @keyframes saberFlicker {
-            0%, 100% { text-shadow: 0 0 10px currentColor; }
-            50% { text-shadow: 0 0 20px currentColor, 0 0 30px currentColor; }
         }
     </style>
 </head>
@@ -466,7 +489,7 @@
             
             <!-- CRAWL DE ABERTURA -->
             <div class="crawl">
-                <p style="line-height: 2;">
+                <p>
                     Em uma galáxia muito, muito distante...<br><br>
                     Um desenvolvedor lendário surge das profundezas do código.<br>
                     Dominando a força do Backend através de Java e Python...<br>
@@ -493,9 +516,9 @@
                     <div class="skill-item">🔧 AUTOMATE</div>
                 </div>
 
-                <div style="margin-top: 30px; font-size: 0.9rem; color: var(--neon-cyan);">
-                    <p><strong>Especialidades:</strong></p>
-                    <ul style="text-align: left; margin-top: 10px; padding-left: 20px;">
+                <div class="skills-list" style="color: var(--neon-cyan);">
+                    <strong>Especialidades:</strong>
+                    <ul>
                         <li>Spring Boot & Microservices</li>
                         <li>Django & FastAPI</li>
                         <li>Database Design</li>
@@ -519,9 +542,9 @@
                     <div class="skill-item">📊 POWERAPPS</div>
                 </div>
 
-                <div style="margin-top: 30px; font-size: 0.9rem; color: var(--light-gold);">
-                    <p><strong>Especialidades:</strong></p>
-                    <ul style="text-align: left; margin-top: 10px; padding-left: 20px;">
+                <div class="skills-list" style="color: var(--light-gold);">
+                    <strong>Especialidades:</strong>
+                    <ul>
                         <li>Responsive Design</li>
                         <li>Interactive Animations</li>
                         <li>UI/UX Excellence</li>
@@ -543,7 +566,7 @@
             </p>
             
             <div>
-                <div class="contact-method">
+                <div class="contact-method" onclick="copyToClipboard(this, 'cavs.thecno@gmail.com')">
                     <span class="saber">🔴</span>
                     <span class="contact-email">cavs.thecno@gmail.com</span>
                     <span class="saber">🔴</span>
@@ -551,7 +574,7 @@
             </div>
 
             <div>
-                <div class="contact-method">
+                <div class="contact-method" onclick="copyToClipboard(this, 'ornb.developer@gmail.com')">
                     <span class="saber">🔵</span>
                     <span class="contact-email">ornb.developer@gmail.com</span>
                     <span class="saber">🔵</span>
@@ -599,5 +622,58 @@
             </p>
         </div>
     </div>
+
+    <script>
+        function copyToClipboard(element, email) {
+            navigator.clipboard.writeText(email).then(() => {
+                const emailSpan = element.querySelector('.contact-email');
+                const originalContent = emailSpan.textContent;
+                
+                emailSpan.textContent = '✅ Copiado!';
+                emailSpan.style.color = '#00ff00';
+                
+                setTimeout(() => {
+                    emailSpan.textContent = originalContent;
+                    emailSpan.style.color = '';
+                }, 2000);
+            }).catch(err => {
+                console.log('Erro ao copiar:', err);
+                alert('Email: ' + email);
+            });
+        }
+
+        // Efeito de scroll suave
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Adicionar efeito de entrada ao scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.jedi-card, .sith-card, .stat-box').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
 </body>
 </html>
