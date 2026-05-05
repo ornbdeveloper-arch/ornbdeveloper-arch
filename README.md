@@ -1,6 +1,6 @@
 # 🌟 Cavz - The Jedi Developer 🌟
 
-## 🚀 **[👉 CLIQUE AQUI PARA VER A VERSÃO INTERATIVA COM ANIMAÇÕES! 👈](./README.html)**
+## 🚀 **[👉 CLIQUE AQUI PARA VER A VERSÃO INTERATIVA COM ANIMAÇÕES! 👈](https://mainpage-github.vercel.app/)**
 
 > ⚡ **Para a melhor experiência com animações épicas e design Star Wars**, abra o arquivo `README.html` em seu navegador!
 
