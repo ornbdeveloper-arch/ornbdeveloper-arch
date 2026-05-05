@@ -1,8 +1,14 @@
 # 🌟 Cavz - The Jedi Developer 🌟
 
-## ⚡ VERSÃO INTERATIVA DISPONÍVEL! ⚡
+---
 
-**Para a melhor experiência com animações e design Star Wars épico, abra o arquivo `README.html` em seu navegador!**
+## 🚀 **[👉 CLIQUE AQUI PARA VER A VERSÃO INTERATIVA COM ANIMAÇÕES STAR WARS! 👈](./README.html)**
+
+---
+
+> ⚡ **Para a melhor experiência com animações épicas e design Star Wars**, abra o arquivo `README.html` em seu navegador!
+> 
+> Todas as animações, efeitos de luz, crawl Star Wars e estilos incríveis estão lá! 🌌✨
 
 ```
    _____ ________   ____
