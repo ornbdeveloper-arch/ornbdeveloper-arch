@@ -56,7 +56,7 @@ Bem-vindo ao repositório de **Cavz**, o desenvolvedor que domina tanto os poder
 Quer colaborar em uma missão épica? Use a Força para se conectar:
 
 ```
-🔴 cavs.thecno@gmail.com
+🔴 cavs.techno@gmail.com
 🔵 ornb.developer@gmail.com
 ```
 
@@ -194,7 +194,7 @@ Este é um espaço onde:
 ## 🔗 Conecte Comigo
 
 ```
-📧 Email Principal:      cavs.thecno@gmail.com
+📧 Email Principal:      cavs.techno@gmail.com
 📧 Email Secundário:     ornb.developer@gmail.com
 💻 GitHub:               @cavz
 🔗 LinkedIn:             [seu-linkedin]
