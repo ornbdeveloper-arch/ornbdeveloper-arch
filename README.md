@@ -91,9 +91,9 @@ Explore meus repositórios! Cada um é uma aventura no universo tech:
 
 ```
 🎯 Tecnologias Dominadas:     8+
-∞  Projetos Criados:          Infinitos
-☕ Café Consumido:             Litros infinitos
-🐛 Bugs Esmagados:            Contando...
+∞  Projetos Criados:          1
+☕ Café Consumido:            Litros infinitos..
+🐛 Bugs Esmagados:            3
 📝 Linhas de Código:          Mais que estrelas
 ```
 
