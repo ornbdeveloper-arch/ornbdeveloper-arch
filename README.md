@@ -35,6 +35,7 @@ Bem-vindo ao repositório de **Cavz**, o desenvolvedor que domina tanto os poder
 
 | Tecnologia | Especialidade |
 |-----------|---------------|
+| ☕ **C#** | ASP.NET, Microservices, APIs RESTful |
 | ☕ **JAVA** | Spring Boot, Microservices, APIs RESTful |
 | 🐍 **PYTHON** | Django, FastAPI, Scripts Inteligentes |
 | 🗄️ **SQL** | Database Design, Otimização, Queries |
@@ -112,6 +113,7 @@ Explore meus repositórios! Cada um é uma aventura no universo tech:
 ## 🌌 Tecnologias Favoritas
 
 ### Backend
+- ASP.NET
 - Spring Boot & Spring Cloud
 - Django & FastAPI
 - PostgreSQL & MongoDB
@@ -236,7 +238,7 @@ Isso motiva muito e ajuda outros desenvolvedores a encontrar código de qualidad
 
 ## 📜 Última Atualização
 
-**Data:** 2024  
+**Data:** 2026  
 **Status:** 🟢 Ativo & Evoluindo  
 **Próximo Update:** Em breve...  
 
