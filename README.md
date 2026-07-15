@@ -23,7 +23,7 @@ Um Jedi Developer surge! 🌌
 
 Bem-vindo ao repositório de **Cavz**, o desenvolvedor que domina tanto os poderes **JEDI** quanto **SITH** da programação.
 
-- 🔵 **Lado JEDI**: Backend robusto com Java, Python e SQL
+- 🔵 **Lado JEDI**: Backend robusto com C#, Python e SQL
 - 🔴 **Lado SITH**: Frontend épico com HTML, CSS, JavaScript
 - ⚡ **Power Extra**: PowerApps e Automação inteligente
 
@@ -57,7 +57,6 @@ Bem-vindo ao repositório de **Cavz**, o desenvolvedor que domina tanto os poder
 Quer colaborar em uma missão épica? Use a Força para se conectar:
 
 ```
-🔴 cavs.techno@gmail.com
 🔵 ornb.developer@gmail.com
 ```
 
@@ -113,11 +112,11 @@ Explore meus repositórios! Cada um é uma aventura no universo tech:
 ## 🌌 Tecnologias Favoritas
 
 ### Backend
-- ASP.NET
-- Spring Boot & Spring Cloud
+- ASP.NET, Blazor
+- Spring Boot
 - Django & FastAPI
 - PostgreSQL & MongoDB
-- Docker & Kubernetes
+- Docker
 - Microservices Architecture
 
 ### Frontend
@@ -130,7 +129,9 @@ Explore meus repositórios! Cada um é uma aventura no universo tech:
 ### Ferramentas & Extras
 - Git & GitHub
 - Visual Studio Code
-- Postman & Insomnia
+- Rider
+- Visual Studio
+- Postman
 - PowerApps & Power Automate
 - Docker Compose
 
@@ -196,11 +197,10 @@ Este é um espaço onde:
 ## 🔗 Conecte Comigo
 
 ```
-📧 Email Principal:      cavs.techno@gmail.com
-📧 Email Secundário:     ornb.developer@gmail.com
+📧 Email Principal:      ornb.developer@gmail.com
+📧 Email Secundário:     cavs.techno@gmail.com
 💻 GitHub:               @cavz
-🔗 LinkedIn:             [seu-linkedin]
-🐦 Twitter:              [seu-twitter]
+🔗 LinkedIn:             www.linkedin.com/in/bruno-carvalho-72abb427b
 ```
 
 ---
